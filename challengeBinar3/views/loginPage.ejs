@@ -1,0 +1,51 @@
+<head>
+  <title>Login Page</title>
+  <link href="/login/loginPage.css" rel="stylesheet" />
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  >
+</head>
+
+<body>
+  <form id="login" class="container" method="POST" action="/home/login/data/add">
+    <h1><b>Silahkan login...</b></h1>
+
+    <br /><br />
+
+    <label><b>Email : </b></label>
+    <input type="text" id="email" placeholder="Enter Email" />
+
+    <br /><br />
+
+    <label><b>Password : </b></label>
+    <input type="password" id="password" placeholder="Enter Password" />
+
+    <br /><br /><br />
+
+    <input
+      type="button"
+      id="submit"
+      onclick="submitData()"
+      value="LOGIN"
+      class="tombol"
+    />
+  </form>
+
+  <script>
+    function submitData() {
+      alert("LOGIN BERHASIL !!");
+      let email = $("#email").val();
+      let password = $("#password").val();
+
+      jsonObject = {};
+      jsonObject.Email = email;
+      jsonObject.Password = password;
+
+      let str = JSON.stringify(jsonObject);
+      document.write(str);
+    }
+  </script>
+</body>

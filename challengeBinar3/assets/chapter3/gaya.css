@@ -1,0 +1,731 @@
+/*Main Setting*/
+body{
+    background-color:rgb(15, 15, 39);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Page 1*/
+
+/* Navigation Bar*/
+.navbar1{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    left: auto;
+    background-color: rgba(17, 17, 19, 0.7);
+    padding: 7px;
+    overflow: hidden;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: whitesmoke !important;
+}
+
+.nav-item .nav-link{
+    margin: 20px;
+    color: whitesmoke !important;
+}
+
+.signup{
+    margin-left: 70px !important;
+}
+
+
+/*Center Text dan Button*/
+@media only screen and (max-width: 970px) {
+    .text-center {display: none;}
+}
+.text1{
+    position:absolute; 
+    top: 35%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    width:100% !important}
+
+.centertext2 {
+    width : 500px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+@media only screen and (max-width: 500px) {
+    .centertext2 {display: none;}
+}
+
+.button1{
+    width: 200px;
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: #fabb0f;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    cursor: pointer !important;
+}
+
+.link2{
+    text-decoration: none;
+    color :black;
+}
+
+.story{
+    position:absolute;
+    top: 90%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon1{
+    position:absolute;
+    top: 95%;
+    left:50%;
+    transform: translate(-50%, -50%) !important;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Page 2*/
+
+/*text whats so special and the games*/
+.text2{
+    position:absolute; 
+    top: 25%;
+    left: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+@media only screen and (max-width: 1398px) {
+    .text2 {display: none;}
+}
+
+.text3{
+    position:absolute; 
+    top: 30%;
+    left: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+@media only screen and (max-width: 1398px) {
+    .text3 {display: none;}
+}
+
+/*carousel view*/
+#carouselExampleIndicators{
+    position: absolute;
+    top:30%;
+    left:28%;
+}
+@media only screen and (max-width: 1398px) {
+    #carouselExampleIndicators {  
+        top: 0%;
+        left: 10px;
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .carousel-item {  
+        top: 0%;
+        left: 3%;
+        width: 450px;
+        height:300px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .carousel-control-prev {  
+        top:5%;
+        left:2px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .carousel-control-next {  
+        top:5%;
+        left:300px;
+    }
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Page 3*/
+
+/*text whats so special and the games*/
+.text4{
+    position:absolute; 
+    top: 27%;
+    left: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    .text4 {display: none;}
+}
+
+.text5{
+    position:absolute; 
+    top: 33%;
+    left: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+@media only screen and (max-width: 1000px) {
+    .text5 {display: none;}
+}
+
+/*list of content*/
+.ul1 {
+    position:absolute; 
+    top: 45%;
+    left: 58%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #fabb0f;
+    margin :10px;
+}
+
+.li1::before{
+    background-color: white;
+    width: 1px;
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 19px;
+}
+
+@media only screen and (max-width: 950px) {
+    .ul1 {
+    left: 20px;
+    top: 30%;
+    }
+}
+.ul2 {
+    position:absolute; 
+    top: 65%;
+    left: 58%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fabb0f;
+    text-align: left;
+    margin :10px;
+}
+
+@media only screen and (max-width: 950px) {
+    .ul2 {
+    left: 20px;
+    top: 65%;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Page 4*/
+/*Text My Computer and SYSrq*/
+.text6 {
+    position: absolute;
+    top:10% !important;
+    left: 40%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .text6 {display: none;}
+}
+
+.text7 {
+    position: absolute;
+    top: 8%;
+    left: 10% !important;
+    text-align: left;
+    font-size: 60px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .text7 {display: none;}
+}
+
+.table{
+    position: absolute;
+    text-align: left;
+    top:40%;
+    left:10%;
+    width:500px;
+}
+
+td p {
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .table {
+    top:10px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .table {
+    top: 5px;
+    left: 5px;
+    transform: scale(0.75);
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Page 5*/
+/*Text Top Score*/
+.text8 {
+    position: absolute;
+    top: 35%;
+    left: 10% !important;
+    text-align: left;
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .text8 {
+    top: 10%;
+    }
+}
+
+.text9 {
+    position: absolute;
+    top: 45%;
+    left: 10% !important;
+    text-align: left;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .text9 {
+        top: 30%;
+    }
+}
+
+/*Button*/
+.button2{
+    width: 200px;
+    position:absolute;
+    top: 55%;
+    left: 10% !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: #fabb0f;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer !important;
+    border-radius: 4px;
+}
+
+/*Player Comment*/
+/*Asep*/
+.comment1{
+    position :absolute;
+    left: 50%;
+    top: 6%;
+    background-color: rgb(55, 56, 68);
+    width: 500px;
+    border: 1px transparent;
+    padding: 15px;
+    margin: 0;
+    border-radius: 6px;
+    color:aliceblue;
+}
+
+.aseptext1{
+    color: rgb(255, 187, 0);
+    display: inline;
+    text-align: left;
+    margin-left: -110px;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.aseptext2{
+    color: rgb(206, 240, 240);
+    display: block;
+    text-align: left;
+    margin-left: 110px;
+    font-family: Arial;
+    font-size: larger;
+}
+
+.aseptext3{
+    display: block;
+    text-align: left;
+    margin-left: 30px;
+    font-family: Arial;
+    font-size: larger;
+}
+
+.aseptext4{
+    text-align: left;
+    color: rgb(206, 240, 240);
+    display: block;
+    margin-left: 30px;
+    font-family:  Arial;
+}
+
+@media only screen and (max-width: 1000px) {
+    .comment1 {
+    display: none;
+    }
+}
+
+/*Jada*/
+.comment2{
+    position :absolute;
+    left: 40%;
+    top: 37%;
+    background-color: rgb(55, 56, 68);
+    width: 500px;
+    border: 1px transparent;
+    padding: 15px;
+    margin: 0;
+    border-radius: 6px;
+    color:aliceblue;
+}
+
+.jadatext1{
+    color: rgb(255, 187, 0);
+    display: inline;
+    text-align: left;
+    margin-left: -140px;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.jadatext2{
+    color: rgb(206, 240, 240);
+    display: block;
+    text-align: left;
+    margin-left: 110px;
+    font-family: Arial;
+    font-size: larger;
+}
+
+.jadatext3{
+    display: block;
+    text-align: left;
+    margin-left: 30px;
+    font-family: Arial;
+    font-size: larger;
+}
+
+.jadatext4{
+    text-align: left;
+    color: rgb(206, 240, 240);
+    display: block;
+    margin-left: 30px;
+    font-family:  Arial;
+}
+
+@media only screen and (max-width: 1000px) {
+    .comment2 {
+    display: none;
+    }
+}
+
+/*Aaron*/
+.comment3{
+    position :absolute;
+    left: 50%;
+    top: 64%;
+    background-color: rgb(55, 56, 68);
+    width: 500px;
+    border: 1px transparent;
+    padding: 15px;
+    margin: 0;
+    border-radius: 6px;
+    color:aliceblue;
+}
+
+.aarontext1{
+    color: rgb(255, 187, 0);
+    display: inline;
+    text-align: left;
+    margin-left: -110px;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.aarontext2{
+    color: rgb(206, 240, 240);
+    display: block;
+    text-align: left;
+    margin-left: 110px;
+    font-family: Arial;
+    font-size: larger;
+}
+
+.aarontext3{
+    display: block;
+    text-align: left;
+    margin-left: 30px;
+    font-family: Arial;
+    font-size: larger;
+}
+
+.aarontext4{
+    text-align: left;
+    color: rgb(206, 240, 240);
+    display: block;
+    margin-left: 30px;
+    font-family:  Arial;
+}
+
+@media only screen and (max-width: 1000px) {
+    .comment3 {
+    display: none;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Page 6*/
+
+/*Gambar Patung*/
+.patung{
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    position: absolute;
+    left: 17%;
+    top: 18%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .patung {
+    top :10px;
+    left: 10px;
+    transform: scale(0.6);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .patung {
+    display: none;
+    }
+}
+
+/*Newsletter and Follow*/
+.text10 {
+    text-align: left;
+    font-family :Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: absolute;
+    top: 20% !important;
+    left: 47%;
+}
+
+@media only screen and (max-width: 780px) {
+    .text10 {
+    display: none;
+    }
+}
+
+.text11 {
+    text-align: left;
+    font-family :Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 30%;
+    left: 47%;
+}
+
+@media only screen and (max-width: 780px) {
+    .text11 {
+    top: 30px;
+    left: 25%;
+    }
+}
+
+.text12{
+    text-align: left;
+    margin-right: 150px;
+    position: absolute;
+    top: 50% !important;
+    left: 47%;
+}
+
+@media only screen and (max-width: 1300px) {
+    .text12 {
+    display: none;
+    }
+}
+
+/*box email dan tombol subs*/
+.boxemail{
+    position :absolute;
+    left: 47%;
+    top: 63%;
+    background-color: rgb(55, 56, 68);
+    width: 300px;
+    border: 1px transparent;
+    border-radius: 6px;
+    color:aliceblue;
+}
+
+.email1{
+    text-align: left;
+    font-size: 15px;
+    color: rgb(206, 240, 240);
+    display: block;
+    margin-left: 10px;
+    font-family:  Arial;
+}
+.email2{
+    font-size: 15px;
+    color: rgb(233, 165, 64);
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+    font-family: Arial;
+}
+
+
+@media only screen and (max-width: 780px) {
+    .boxemail {
+    top: 200px;
+    left: 30px;
+    }
+}
+.button3{
+    width: 200px;
+    position:absolute;
+    top: 63%;
+    left: 71%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: #fabb0f;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer !important;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 780px) {
+    .button3 {
+    top: 200px;
+    left: 50%;
+    }
+}
+
+/*Footer*/
+.garis{
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    color: white;
+    width: 90%;
+}
+
+.footer{
+    position: absolute;
+    left: 20%;
+    top: 81%;
+}
+.listfooter{
+    font-size: 13px;
+    color: whitesmoke;
+    display: inline;
+    margin: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .footer {
+    display: none;
+    }
+}
+
+.footer2{
+    position: absolute;
+    left: 70%;
+    top: 81%;
+}
+
+.listfooter2{
+    display: inline;
+    margin: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .footer2 {
+    display: none;
+    }
+}
+
+.footer3{
+    position: absolute;
+    left: 4%;
+    top: 88%;
+}
+.listfooter3{
+    font-size: 11px;
+    color: rgb(190, 169, 169);
+    display: inline;
+    margin: 0;
+}
+
+.footer4{
+    position: absolute;
+    right: 70px;
+    top: 88%;
+}
+.listfooter4{
+    font-size: 11px;
+    color: rgb(190, 169, 169);
+    display: inline;
+    margin: 10px;
+}
+
+.vertical {
+    display: inline;
+    border-left: 2px solid white;
+    height: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .footer4 {
+    display: none;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/

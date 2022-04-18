@@ -1,0 +1,21 @@
+body {
+  background-color: greenyellow;
+}
+
+.container {
+  font-size: larger;
+  background-color: chocolate;
+  position: fixed;
+  margin-left: 29%;
+  margin-top: 15%;
+  padding : 20px;
+  border-radius: 10px;
+}
+
+.tombol {
+  position: relative;
+  margin-left: 37%;
+  font-size: larger;
+  border-radius: 2px;
+  background-color: aqua;
+}

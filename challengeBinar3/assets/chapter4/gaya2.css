@@ -1,0 +1,176 @@
+/*------------------------------------------------------$$$ START $$$----------------------------------------------------------*/
+/*Background*/
+body {
+    background-color: #9c835f;
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*Logo*/
+.logo2 {
+    float: left;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+} 
+
+.backbutton {
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.logo1 {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Judul*/
+.judul {
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 1.50rem;
+    color: #f9b23d;
+    font-size: 2vw;
+    font-family: Arial;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Text Player & COM*/
+.playerCom {
+    font-size: 2rem;
+    display: flex ;
+    flex-direction: row;
+    position: fixed;
+    margin-left: 10rem;
+
+}
+
+/*Text VS*/
+.vs{
+    position: absolute;
+    margin-left: 23%;
+    margin-top: 7%;
+    color: red;
+    font-size: 6vw;
+    font-family: Arial;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Tombol Player dan Display COM*/
+.batuPlayer{
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.batuPlayer:hover{
+    background-color: wheat;
+    opacity: 0.7;
+}
+
+.kertasPlayer{
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.kertasPlayer:hover{
+    background-color: wheat;
+    opacity: 0.7;
+}
+
+.guntingPlayer{
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.guntingPlayer:hover{
+    background-color: wheat;
+    opacity: 0.7;
+}
+
+.ulang{
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+}
+.ulang:hover{
+    background-color: wheat;
+    opacity: 0.7;
+}
+
+.playerZone{
+    display: flex ;
+    flex-direction: column;
+    position: fixed;
+    margin-left: 10rem;
+    margin-top: 7rem;
+}
+
+.comZone{
+    display: flex ;
+    flex-direction: column;
+    position: relative;
+    margin-left: 35rem;
+    margin-top: 7rem;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Tombol Refresh*/
+.ulang{
+    position: absolute;
+    margin-left: 24%;
+    margin-top: 0;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Box Info*/
+#menang{
+    position: absolute;
+    font-family: Arial;
+    font-size: 30px;
+    margin-left: 22%;
+    margin-top: -20%;
+    background-color: yellow;
+    padding: 20px;
+    transform: rotate(-20deg);
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+#kalah{
+    position: absolute;
+    font-family: Arial;
+    font-size: 30px;
+    margin-left: 23%;
+    margin-top: -20%;
+    background-color: rgb(155, 0, 0);
+    padding: 20px;
+    transform: rotate(-20deg);
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+#draw{
+    position: absolute;
+    font-family: Arial;
+    font-size: 30px;
+    margin-left: 23%;
+    margin-top: -20%;
+    background-color: rgb(0, 155, 0);
+    padding: 20px;
+    transform: rotate(-20deg);
+    border-radius: 5px;
+    visibility: hidden;
+}
+/*--------------------------------------------------------$$$ SELESAI $$$--------------------------------------------------------*/
